@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  z-index: 999; 
+  display: flex; 
+  justify-content: center;
+
+  align-items: center; 
+}
+
+header h1 {
+  margin: 0;
+  
+}
+#logo{
+    margin-inline-end:500px;
+    font-size: 2em;
+}
+
+nav {
+  display: flex; 
+  margin-right:5px;
+  margin-left: 10%;
+
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 3px; 
+}
+
+nav a:hover {
+  background-color: #555; 
+}
+        .hero {
+    background-color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+    margin-top: 60px; /* Adjust for sticky header */
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.hero {
+  background-image: url(jplogp.jpg); 
+  background-size: 35%; 
+  background-position: center; 
+  min-height: 55%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-repeat: no-repeat;
+  padding: 15%;
+  
+}
+
+.text-overlay {
+  text-align: center; /* Center text within the overlay */
+  color: #1b02f8; /* Set text color to white */
+ padding: 5em;
+ position: absolute;
+      top: 79%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
+}
+
+.text-overlay h1{
+    font-style: italic;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="logo">JP CLASSES</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="course.html">Courses</a>
+            <a href="offer.html">Offers</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+       
+    </header>
+    
+    <section class="hero">
+        <div class="text-overlay">
+          <h1 font-style="italic">  "Winners never quit, and quitters never win."</h1>
+          <p>Discover a world of knowledge and unlock your full potential with JP Classes.</p>
+          <p>We offer a wide range of high-quality educational programs for students of all ages.</p>
+       
+        </div>
+      </section>
+
+    <footer>
+        <p>&copy; 2023 JP Classes. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
+

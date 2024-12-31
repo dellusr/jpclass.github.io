@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          body{
+            background-image: url(class.jpg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }   
+
+        .courses {
+    margin-left: 5%;
+    padding: 4rem 0;
+}
+
+.courses h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: beige;
+}
+
+.course-card {
+    background-color:skyblue;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 1rem;
+    display: inline-block;
+    width: 300px; 
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.course-card h3 {
+    margin-top: 0; 
+}
+
+@media screen and (max-width: 768px) { 
+    .course-card {
+        width: 80%; 
+        margin: 1rem auto; 
+    }
+}
+
+    </style>
+</head>
+<body>
+    <marquee behavior="scroll" direction="left" bgcolor="#f0f0f0">
+        To Attend The Demo lecture Register Now! <a href="registration_form.html" style="color: blue; text-decoration: none;">Click Here</a> 
+      </marquee>
+    <section class="courses">
+        <h1>Our Courses</h1>
+        <div class="course-card">
+            <h3>Programming Fundamentals</h3>
+            <p>Learn the basics of coding and develop essential programming skills. This course covers fundamental concepts like variables, data types, control flow, loops, functions, and basic algorithms. You'll gain hands-on experience with a popular programming language like Python or JavaScript.</p>
+        </div>
+        <div class="course-card">
+            <h3>English Language Proficiency</h3>
+            <p>Improve your English communication and writing skills. This course focuses on grammar, vocabulary, reading comprehension, and spoken English. You'll learn to express yourself confidently in various contexts, from everyday conversations to professional settings.</p>
+        </div>
+        <div class="course-card">
+            <h3>Mathematics Mastery</h3>
+            <p>Build a strong foundation in mathematics and excel in your studies. This course covers a wide range of topics, including algebra, geometry, trigonometry, and calculus. You'll develop critical thinking and problem-solving skills that are essential for academic and professional success.</p>
+        </div>
+    </section>
+    
+</body>
+</html>
